@@ -1,4 +1,4 @@
-Site PHP Maranhão
+Site PHP Maranhão || Desenvolvimento de feed
 ============
 
 Este repositório conterá todas as features em desenvolvimento para o site PHP Maranhão.
