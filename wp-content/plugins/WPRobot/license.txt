@@ -1,0 +1,40 @@
+
+WP Robot License
+http://wprobot.net
+
+1. Terms 
+
+By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this web site are protected by applicable copyright and trade mark law. 
+
+2. Use License 
+
+a.You may use the WP Robot software for the purposes of running a website on a the number of domain names as allowed by your license. 
+b. You may make a reasonable number of copies for backup purposes only. 
+c. You may modify the WP Robot software as per your requirements as long as the modifications would not circumvent the licensing system. 
+
+3. Limitations 
+a. You may not use WP Robot on any domain not wholly owned by you. 
+b. You may not distribute copies of the WP Robot software or transfer any part of it to a 3rd party. 
+c. You may not rent, lease, sell, or sub-license the WP Robot software or copies of it.
+d. You may not use the software to engage in any illegal activity. 
+e. You may not circumvent the licensing system in any way. 
+
+4. Disclaimer 
+
+The materials on WP Robot's website and the WP Robot software are provided "as is". WP Robot makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, WP Robot does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site. 
+
+5. Revisions and Errata 
+
+The materials appearing on WP Robot's web site could include technical, typographical, or photographic errors. WP Robot does not warrant that any of the materials on its web site are accurate, complete, or current. WP Robot may make changes to the materials contained on its web site at any time without notice. WP Robot does not, however, make any commitment to update the materials. 
+
+6. Links 
+
+WP Robot has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by WP Robot of the site. Use of any such linked web site is at the user's own risk. 
+
+7. Site Terms of Use Modifications 
+
+WP Robot may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use. 
+
+8. Governing Law 
+
+Any claim relating to WP Robot's web site shall be governed by the laws of the State of Bavaria (Germany) without regard to its conflict of law provisions. 

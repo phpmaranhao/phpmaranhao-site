@@ -1,0 +1,426 @@
+﻿.feedswrap{
+border: 1px solid #ccc;
+margin: 12px;
+padding: 1em;
+font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F7F4EA)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #FFFFFF,  #F7F4EA); /* for firefox 3.6+ */
+-moz-box-shadow: #b2b2b2 0 0 8px; -webkit-box-shadow: #b2b2b2 0 0 8px; box-shadow: #b2b2b2 0 0 8px;
+position: inherit;
+display: block;
+width: 90%;
+}
+
+
+.absetting{
+	border: 1px solid #ccc;
+	margin: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F7F4EA), to(#FFFFFF)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #F7F4EA,  #FFFFFF); /* for firefox 3.6+ */
+	-moz-box-shadow: #b2b2b2 0 0 8px;
+	-webkit-box-shadow: #b2b2b2 0 0 8px;
+	box-shadow: #b2b2b2 0 0 8px;
+	position: inherit;
+	display: block;
+	width: 97%;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 1em;
+	padding-left: 0em;
+}
+
+.rssfeed{
+	background-color:#F90;
+	color:#FFFFFF;
+	display:inline;
+	font-size:9pt;
+	font-weight:bold;
+}
+.googleblogsearch{background-color: #F8DFA8;color: #000000;display: inline;font-size: 9pt;font-weight: bold;}
+.twittersearch{background-color:#566D36;color:#FFFFFF;display:inline;font-size:9pt;font-weight:bold;}
+.icerocketblogsearch{background-color:#934A4A;color:#FFFFFF;display:inline;font-size:9pt;font-weight:bold;}
+.blogpulsesearch{background-color:#143D9C;color:#FFFFFF;display:inline;font-size:9pt;font-weight:bold;}
+.msnspacessearch{background-color: #0066A7;color: #FFFFFF;display: inline;font-size: 9pt;font-weight: bold;}
+.yahoonewssearch{background-color: #820027;color: #FFFFFF;display: inline;font-size: 9pt;font-weight: bold;}
+.flickrtagsearch{background-color: #0063DC;color: #FFFFFF;display: inline;font-size: 9pt;font-weight: bold;}
+.youtubetagsearch{background-color: #C51C1B;color: #FFFFFF;display: inline;font-size: 9pt;font-weight: bold;}
+.yahoovideosearch{background-color: #3E3D3D;color: #FFFFFF;display: inline;font-size: 9pt;font-weight: bold;}
+.feedheader{
+color: #444444;
+font-size: 9pt;
+font-weight: bold;
+overflow: hidden;
+text-indent: 65px;
+background: url(img/rssb.png);
+background-repeat: no-repeat;
+height: 50px;
+}
+.feedurl {
+	color: #4A1A56;
+	font-size: 9pt;
+	overflow: hidden;
+	text-indent: 65px;
+	font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.editfeed {
+text-indent: 63px;
+}
+
+p.abdebug {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #748f7d;
+	margin: 0;
+
+	text-indent: 5px;
+}
+h1.abadmin {font-family: Helvetica, Arial, sans-serif;font-size:16pt;}
+h2.abadmin  {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #555;
+	padding-top: 20px;
+}
+h3.abadmin  {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	color: #333;
+    margin: 0;
+    padding-top: .8em;
+    padding-bottom: .35em;
+}
+a.abadmin {font-family: Helvetica, Arial, sans-serif;font-size:9pt;}
+p.abadmin {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #333;
+}
+ul.abadmin {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #333;
+}
+li.abadmin {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #333;
+}
+.abadmin {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #333;
+}
+p {
+    font-size:9pt;
+    color: #5e5e5e;
+    padding: 0;
+    margin: 0;
+}
+table {
+	border-collapse:collapse;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:9pt;
+    color: #5e5e5e;
+    padding: 0;
+    margin: 0;
+}
+
+table th {
+	text-align:left;
+	background-color:#eee;
+	padding:2px 3px;
+	border:1px solid #fff;
+	font-size:9pt;
+    font-style: normal;
+}
+a
+table td {
+	text-align:left;
+	padding:2px 3px;
+	border:1px solid #eee;
+	font-size:9pt;
+	vertical-align:top;
+}
+
+table td p{
+    padding-bottom: 5px;
+    margin: 0;
+
+}
+table tr.enabled td {
+		background-color:#EAFFEA;
+font-size:9pt;
+}
+table tr.disabled td,
+table tr.disabled td a {
+	background-color:#fcc;
+	color:#c00;
+}
+table tr.disabled td a {
+	text-decoration:underline;
+}
+
+.abbutton {
+
+   border-top: 1px solid #A8A48E;
+   background: #C2C99C;
+   /* background: -webkit-gradient(linear, left top, left bottom, from(#C2C99C), to(#919B55));
+   background: -moz-linear-gradient(top, #C2C99C, #919B55); */
+   background: -webkit-gradient(linear, left top, left bottom, from(#A2AA82), to(#79745d));
+   background: -moz-linear-gradient(top, #A2AA82, #79745d);
+   padding: 4px 8px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   /* moz-box-shadow: #b2b2b2 2px 5px 5px; -webkit-box-shadow: #b2b2b2 2px 5px 5px; box-shadow: #b2b2b2 2px 5px 5px;*/
+
+   -webkit-box-shadow: #b2b2b2 1px 1px 3px;
+   -moz-box-shadow: #b2b2b2 1px 1px 3px;
+   box-shadow: #b2b2b2 1px 1px 3px;
+
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Helvetica, Arial, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   font-weight: bold;
+   }
+.abbutton:hover {
+   border-top-color: #676e1f;
+   background: #625b56;
+   color: #E0DEBE;
+   }
+.abbutton:active {
+   border-top-color: #3d401d;
+   background: #3d401d;
+   color: #d9d6d9;
+   }
+
+
+
+.abtext {
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border-color: #ddd;
+
+}
+
+.abpostpreview {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:9pt;
+	color: #333;
+}
+
+.curtime {
+    padding-bottom: 1px;
+	color: #808080;
+	font-size:8pt !important;
+}
+
+
+.asetting {
+    width: 100%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11px;
+    background-color: #FFFFFF;
+    background-image: url(img/div.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 3px;
+}
+
+
+
+/*
+ * jQuery UI CSS Framework 1.8.17
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+.ui-helper-clearfix:after { clear: both; }
+.ui-helper-clearfix { zoom: 1; }
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff 50% 50% repeat-x; color: #222222; }
+.ui-widget-content a { color: #222222; }
+.ui-widget-header { border: 1px solid #ffffff; background: #ffffff 50% 50% repeat-x; color: #222222; font-weight: bold; }
+.ui-widget-header a { color: #222222; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #d3d3d3; background: #f5f4f4 50% 50% repeat-x; font-weight: normal; color: #8a8a8a; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #8a8a8a; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999; background: #e8e8e8  50% 50% repeat-x; font-weight: normal; color: #212121; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #212121; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #c7c7c7; background: #ffffff 50% 50% repeat-x; font-weight: normal; color: #212121; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+/* Corner radius */
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px; -khtml-border-top-left-radius: 0px; border-top-left-radius: 0px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -khtml-border-top-right-radius: 0px; border-top-right-radius: 0px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -khtml-border-bottom-left-radius: 0px; border-bottom-left-radius: 0px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -khtml-border-bottom-right-radius: 0px; border-bottom-right-radius: 0px; }
+
+/* Overlays */
+.ui-widget-overlay { background: #aaaaaa 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa  50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+
+
+.ui-tabs {
+    position: relative;
+    zoom: 1;
+    border-style: none !important;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 1px;
+    border-bottom: 0 !important;
+    padding: 0;
+    white-space: nowrap;
+    background-image: url(img/tabfront.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 0px;
+    font-weight: normal;
+
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    text-decoration: none;
+    padding-top: 9px;
+    text-align: center;
+    height: 24px;
+    width: 110px;
+    font-size:.8em;
+    vertical-align: middle;
+    font-weight: normal;
+    color: #999999;
+}
+
+.ui-tabs .ui-tabs-nav li:hover {
+    background-image: url(img/tabfronthover.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin-bottom: 0;
+    background-image: url(img/tabback.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected:hover {
+    margin-bottom: 0;
+
+    background-repeat: no-repeat;
+    background-position: left top;
+    cursor: pointer;
+
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    color: #1B6483!important;
+}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+}
+
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {
+    box-shadow: 0 0 4px #aaa inset;
+    -moz-box-shadow: 0 0 4px #aaa inset;
+    -webkit-box-shadow: 0 0 4px #aaa inset;
+    display: block;
+    border: 1px solid #bbb;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    background-color: #F5F5F5;
+}
+
+.ui-tabs .ui-tabs-panel a {
+     color: #1B6483;
+ }
+
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}

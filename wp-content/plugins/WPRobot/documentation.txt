@@ -1,0 +1,7 @@
+Detailed and up to date documentation of WP Robot is available online at:
+
+
+http://wprobot.net/documentation
+
+
+There are also direct links to documentation topics from within the WP Robot admin panel for quick and easy access.
